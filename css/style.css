@@ -51,7 +51,7 @@ nav {
     z-index: 99;
     left: 0%;
     right: 0%;
-
+    padding: 1rem
 }
 
 .main-nav {
@@ -59,9 +59,15 @@ nav {
     padding-block: 8px;
 }
 
-.company-logo img {
-    width: 120px;
-    height: 90px;
+.company-logo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #e2cedb;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(82,78,85,1) 100%);
+    padding: 10px;
+    border-radius: 1rem;
 }
 
 .nav-links ul {
@@ -73,7 +79,7 @@ nav {
 }
 
 .hover-link:hover {
-    color: var(--secondary-text-color);
+    color: darkblue;
 }
 
 .hover-link:active {
@@ -100,7 +106,7 @@ nav {
 }
 
 .search-button {
-    background-color: var(--accent-color);
+    background-color: darkcyan;
     color: white;
     padding: 8px 24px;
     border: none;
@@ -135,6 +141,7 @@ main {
     background-color: #fff;
     overflow: hidden;
     transform: all 0.3s ease;
+    border-radius: 1rem;
 }
 
 .card:hover {
