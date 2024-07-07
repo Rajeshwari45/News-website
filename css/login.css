@@ -69,7 +69,7 @@ body {
     font-size: 12px;
 }
 
-.login-box a {
+.login-box .btn {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -82,7 +82,7 @@ body {
     letter-spacing: 4px;
 }
 
-.login-box a:hover {
+.login-box .btn:hover {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
